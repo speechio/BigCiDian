@@ -1,4 +1,4 @@
-#BigCiDian
+# BigCiDian
 
 ## Goal
 This project is an attempt to create a pronunciation lexicon covering both English and Chinese words *in a unified phoneset* for ASR applications.  
