@@ -52,7 +52,7 @@ English entries are derived from CMUDict 0.7b, hence we need a mapping from ARPA
 |IH2 |ɪ|fellowship: F EH1 L OW0 SH IH2 P|
 |IY0 |i|lady: L EY1 D IY0|
 |IY1 |i|prefix: P R IY1 F IH0 K S|
-|IY2 |i|kenny: K EH1 N IY2|
+|IY2 |i|increase: IH1 N K R IY2 S|
 |JH |dʒ|gesture: JH EH1 S CH ER0|
 |K |k|cat: K AE1 T|
 |L |l|lack: L AE1 K|
