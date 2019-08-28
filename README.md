@@ -90,7 +90,7 @@ Chinese entries are extracted from [DaCiDian project](https://github.com/aishell
 
 Here is a PinYin to IPA mapping in educational prospective: https://resources.allsetlearning.com/chinese/pronunciation/Pinyin_chart
 
-With a few mapping modifications and symbolic adaptations, here is [the final PinYin to target phoneset mapping](/CN/pinyin_mapping_chart.csv)
+With a few mapping modifications and symbolic adaptations, here is the final [PinYin to target phoneset mapping](/CN/pinyin_chart.csv)
 
 ### 2.3 the unified phoneset
 TBC
