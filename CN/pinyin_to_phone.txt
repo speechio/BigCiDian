@@ -17,7 +17,7 @@ biao	b i au
 bie	b ie
 bin	b in
 bing	b iŋ
-bo	b u ɔ
+bo	b uɔ
 bu	b uu
 ca	ts a
 cai	ts ai
@@ -89,7 +89,7 @@ fang	f aŋ
 fei	f ei
 fen	f ən
 feng	f əŋ
-fo	f u ɔ
+fo	f uɔ
 fou	f əu
 fu	f uu
 ga	g a
@@ -205,7 +205,7 @@ mie	m ie
 min	m in
 ming	m iŋ
 miu	m i əu
-mo	m u ɔ
+mo	m uɔ
 mou	m əu
 mu	m uu
 na	n a
@@ -248,7 +248,7 @@ piao	p i au
 pie	p ie
 pin	p in
 ping	p iŋ
-po	p u ɔ
+po	p uɔ
 pou	p əu
 pu	p uu
 qi	q ii
@@ -341,7 +341,7 @@ wang	w aŋ
 wei	w ei
 wen	w ən
 weng	w əŋ
-wo	w ɔ
+wo	w uɔ
 wu	w uu
 xi	x ii
 xia	x i a
