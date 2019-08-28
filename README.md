@@ -86,7 +86,7 @@ English entries are derived from CMUDict 0.7b, hence we need a mapping from ARPA
 *notes: If you find anything inappropriate in the mapping, please open an issue and help me improve it, thanks*
 
 ### 2.2 Chinese PinYin Mapping
-Chinese entries are extracted from DaCiDian project that primarily deals with Chinese words.
+Chinese entries are extracted from [DaCiDian project](https://github.com/aishell-foundation/DaCiDian)
 
 Here is a PinYin to IPA mapping in educational prospective: https://resources.allsetlearning.com/chinese/pronunciation/Pinyin_chart
 
