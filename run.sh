@@ -10,4 +10,4 @@ cd -
 cat EN/EN.txt CN/CN.txt | sort -k1 > lexicon.txt
 rm EN/EN.txt CN/CN.txt
 
-python utils/dict2phoneset.py lexicon.txt phones.txt
+python utils/dict_to_phoneset.py lexicon.txt phoneset.list

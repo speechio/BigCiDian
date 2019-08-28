@@ -1,0 +1,411 @@
+a	a
+ai	ai
+an	an
+ang	aŋ
+ao	au
+ba	b a
+bai	b ai
+ban	b an
+bang	b aŋ
+bao	b au
+bei	b ei
+ben	b ən
+beng	b əŋ
+bi	b ii
+bian	b i an
+biao	b i au
+bie	b ie
+bin	b in
+bing	b iŋ
+bo	b u ɔ
+bu	b uu
+ca	ts a
+cai	ts ai
+can	ts an
+cang	ts aŋ
+cao	ts au
+ce	ts ə
+cei	ts ei
+cen	ts ən
+ceng	ts əŋ
+cha	ch a
+chai	ch ai
+chan	ch an
+chang	ch aŋ
+chao	ch au
+che	ch ə
+chen	ch ən
+cheng	ch əŋ
+chi	ch iii
+chong	ch uŋ
+chou	ch əu
+chu	ch uu
+chua	ch u a
+chuai	ch u ai
+chuan	ch u an
+chuang	ch u aŋ
+chui	ch u ei
+chun	ch u ən
+chuo	ch uɔ
+ci	ts iii
+cong	ts uŋ
+cou	ts əu
+cu	ts uu
+cuan	ts u an
+cui	ts u ei
+cun	ts u ən
+cuo	ts uɔ
+da	d a
+dai	d ai
+dan	d an
+dang	d aŋ
+dao	d au
+de	d ə
+dei	d ei
+den	d ən
+deng	d əŋ
+di	d ii
+dia	d i a
+dian	d i an
+diao	d i au
+die	d ie
+ding	d iŋ
+diu	d i əu
+dong	d uŋ
+dou	d əu
+du	d uu
+duan	d u an
+dui	d u ei
+dun	d u ən
+duo	d uɔ
+e	ə
+ei	ei
+en	ən
+eng	əŋ
+er	ər
+fa	f a
+fan	f an
+fang	f aŋ
+fei	f ei
+fen	f ən
+feng	f əŋ
+fo	f u ɔ
+fou	f əu
+fu	f uu
+ga	g a
+gai	g ai
+gan	g an
+gang	g aŋ
+gao	g au
+ge	g ə
+gei	g ei
+gen	g ən
+geng	g əŋ
+gong	g uŋ
+gou	g əu
+gu	g uu
+gua	g u a
+guai	g u ai
+guan	g u an
+guang	g u aŋ
+gui	g u ei
+gun	g u ən
+guo	g uɔ
+ha	h a
+hai	h ai
+han	h an
+hang	h aŋ
+hao	h au
+he	h ə
+hei	h ei
+hen	h ən
+heng	h əŋ
+hong	h uŋ
+hou	h əu
+hu	h uu
+hua	h u a
+huai	h u ai
+huan	h u an
+huang	h u aŋ
+hui	h u ei
+hun	h u ən
+huo	h uɔ
+ji	j ii
+jia	j i a
+jian	j i an
+jiang	j i aŋ
+jiao	j i au
+jie	j ie
+jin	j in
+jing	j iŋ
+jiong	j i uŋ
+jiu	j i əu
+ju	j yu
+juan	j yu an
+jue	j yue
+jun	j yu n
+ka	k a
+kai	k ai
+kan	k an
+kang	k aŋ
+kao	k au
+ke	k ə
+kei	k ei
+ken	k ən
+keng	k əŋ
+kiu	k i əu
+kong	k uŋ
+kou	k əu
+ku	k uu
+kua	k u a
+kuai	k u ai
+kuan	k u an
+kuang	k u aŋ
+kui	k u ei
+kun	k u ən
+kuo	k uɔ
+la	l a
+lai	l ai
+lan	l an
+lang	l aŋ
+lao	l au
+le	l ə
+lei	l ei
+leng	l əŋ
+li	l ii
+lia	l i a
+lian	l i an
+liang	l i aŋ
+liao	l i au
+lie	l ie
+lin	l in
+ling	l iŋ
+liu	l i əu
+long	l uŋ
+lou	l əu
+lu	l uu
+luan	l u an
+lun	l u ən
+luo	l uɔ
+lv	l yu
+lve	l yue
+ma	m a
+mai	m ai
+man	m an
+mang	m aŋ
+mao	m au
+me	m ə
+mei	m ei
+men	m ən
+meng	m əŋ
+mi	m ii
+mian	m i an
+miao	m i au
+mie	m ie
+min	m in
+ming	m iŋ
+miu	m i əu
+mo	m u ɔ
+mou	m əu
+mu	m uu
+na	n a
+nai	n ai
+nan	n an
+nang	n aŋ
+nao	n au
+ne	n ə
+nei	n ei
+nen	n ən
+neng	n əŋ
+ni	n ii
+nian	n i an
+niang	n i aŋ
+niao	n i au
+nie	n ie
+nin	n in
+ning	n iŋ
+niu	n i əu
+nong	n uŋ
+nou	n əu
+nu	n uu
+nuan	n u an
+nuo	n uɔ
+nv	n yu
+nve	n yue
+o	ɔ
+ou	əu
+pa	p a
+pai	p ai
+pan	p an
+pang	p aŋ
+pao	p au
+pei	p ei
+pen	p ən
+peng	p əŋ
+pi	p ii
+pian	p i an
+piao	p i au
+pie	p ie
+pin	p in
+ping	p iŋ
+po	p u ɔ
+pou	p əu
+pu	p uu
+qi	q ii
+qia	q i a
+qian	q i an
+qiang	q i aŋ
+qiao	q i au
+qie	q ie
+qin	q in
+qing	q iŋ
+qiong	q i uŋ
+qiu	q i əu
+qu	q yu
+quan	q yu an
+que	q yue
+qun	q yu n
+ran	ʒ an
+rang	ʒ aŋ
+rao	ʒ au
+re	ʒ ə
+ren	ʒ ən
+reng	ʒ əŋ
+ri	ʒ iii
+rong	ʒ uŋ
+rou	ʒ əu
+ru	ʒ uu
+ruan	ʒ u an
+rui	ʒ u ei
+run	ʒ u ən
+ruo	ʒ uɔ
+sa	s a
+sai	s ai
+san	s an
+sang	s aŋ
+sao	s au
+se	s ə
+sei	s ei
+sen	s ən
+seng	s əŋ
+sha	sh a
+shai	sh ai
+shan	sh an
+shang	sh aŋ
+shao	sh au
+she	sh ə
+shei	sh ei
+shen	sh ən
+sheng	sh əŋ
+shi	sh iii
+shou	sh əu
+shu	sh uu
+shua	sh u a
+shuai	sh u ai
+shuan	sh u an
+shuang	sh u aŋ
+shui	sh u ei
+shun	sh u ən
+shuo	sh uɔ
+si	s iii
+song	s uŋ
+sou	s əu
+su	s uu
+suan	s u an
+sui	s u ei
+sun	s u ən
+suo	s uɔ
+ta	t a
+tai	t ai
+tan	t an
+tang	t aŋ
+tao	t au
+te	t ə
+teng	t əŋ
+ti	t ii
+tian	t i an
+tiao	t i au
+tie	t ie
+ting	t iŋ
+tong	t uŋ
+tou	t əu
+tu	t uu
+tuan	t u an
+tui	t u ei
+tun	t u ən
+tuo	t uɔ
+wa	w ɑ
+wai	w aɪ
+wan	w an
+wang	w aŋ
+wei	w ei
+wen	w ən
+weng	w əŋ
+wo	w ɔ
+wu	w uu
+xi	x ii
+xia	x i a
+xian	x i an
+xiang	x i aŋ
+xiao	x i au
+xie	x ie
+xin	x in
+xing	x iŋ
+xiong	x i uŋ
+xiu	x i əu
+xu	x yu
+xuan	x yu an
+xue	x yue
+xun	x yu n
+ya	y a
+yan	y an
+yang	y aŋ
+yao	y au
+ye	y ie
+yi	y ii
+yin	y in
+ying	y iŋ
+yo	y ɔ
+yong	y uŋ
+you	y əu
+yu	yu
+yuan	yu an
+yue	yue
+yun	yu n
+za	z a
+zai	z ai
+zan	z an
+zang	z aŋ
+zao	z au
+ze	z ə
+zei	z ei
+zen	z ən
+zeng	z əŋ
+zha	zh a
+zhai	zh ai
+zhan	zh an
+zhang	zh aŋ
+zhao	zh au
+zhe	zh ə
+zhei	zh ei
+zhen	zh ən
+zheng	zh əŋ
+zhi	zh iii
+zhong	zh uŋ
+zhou	zh əu
+zhu	zh uu
+zhua	zh u a
+zhuai	zh u ai
+zhuan	zh u an
+zhuang	zh u aŋ
+zhui	zh u ei
+zhun	zh u ən
+zhuo	zh uɔ
+zi	z iii
+zong	z uŋ
+zou	z əu
+zu	z uu
+zuan	z u an
+zui	z u ei
+zun	z u ən
+zuo	z uɔ
