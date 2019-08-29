@@ -94,17 +94,18 @@ With a few mapping modifications and symbolic adaptations, here is the final [Pi
 
 ### 2.3 tone
 There are normally 5 tones in Chinese PinYin system ranging from 0 ~ 4.
-However there is no tone definition in English.  In BigCiDian, Chinese tonal information is retained and merged with untoned English, so the resulting phoneset may contain 6 tonal variation(1 from English and 5 from Chinese).
+However there is no tone definition in English.  In BigCiDian, Chinese tonal information is retained and merged with untoned English, so the resulting phoneset may contain 6 tonal variation(1 from English and 5 from Chinese):
 
-e.g. for phoneme *ai*:
-'''
+```
+e.g. for phoneme *ai*
+
 1. HI -> h ai
 2. 哎 -> ai_0
 3. 掰 -> b ai_1
 4. 还 -> h ai_2
 5. 凯 -> k ai_3
 6. 外 -> w ai_4
-'''
+```
 
 ### 2.4 the unified phoneset
 TBC
