@@ -1,4 +1,4 @@
-import os, sys, codecs
+import os, sys, codecs, re
 
 mapf = sys.argv[1]
 arpaf = sys.argv[2]
@@ -17,6 +17,7 @@ for l in codecs.open(arpaf, 'r', 'utf8'):
         continue
     cols = l.strip().split()
     word = cols[0]
+    word = re.sub('\([0-9]*\)','',word)
     pron = cols[1:]
     ipa_pron = [ m[phn] for phn in pron ]
     ipa.write(word + u'\t' + u' '.join(ipa_pron) + u'\n')
