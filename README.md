@@ -108,4 +108,71 @@ e.g. for phoneme *ai*
 ```
 
 ### 2.4 the unified phoneset
-TBC
+The final unified bi-lingual phoneset details are listed below:
+
+|phoneme|CN example|EN example|
+|-|-|-|
+|a|把	b a_3| AACHEN	a k ə n|
+|æ||CAT	k æ t|
+|ai|爱	ai_4| KITE	k ai t|
+|an|安	an_1||
+|aŋ|羊	y aŋ_2||
+|au|老	l au_3| LOUD	l au d|
+|b|白	b ai_2| BUT	b ʌ t|
+|ch|陈	ch ən_2| CHEST	ch e s t|
+|d|大	d a_4| DAY	d ei|
+|ð||THIS	ð i s|
+|e||BED	b e d|
+|ei|累	l ei_4| LAKE	l ei k|
+|ə|鹅	ə_2| COCA-COLA	k əu k ə k əu l a|
+|ən|陈	ch ən_2||
+|əŋ|横	h əŋ_2||
+|ər|二	ər_4||
+|əu|欧	əu_1|BOAT	b əu t|
+|f|房	f aŋ_2|FACE	f ei s|
+|g|刚	g aŋ_1|GIVE	g i v|
+|h|海	h ai_3|HUG	h ʌ g|
+|i||HIT	h i t|
+|ie|别	b ie_2||
+|ii||BEAT	b ii t|
+|iii|吃	ch iii_1||
+|in|音	y in_1||
+|iŋ|听	t iŋ_1||
+|j|九	j i əu_3||
+|k|看	k an_4|CAKE	k ei k|
+|l|来	l ai_2|LAKE	l ei k|
+|m|马	m a_3|MAKE	m ei k|
+|n|那	n a_1|NIKE	n ai k ii|
+|ŋ||INTERESTING	i n t ə r e s t i ŋ|
+|ɔ||OFF	ɔ f|
+|ɔi||JOY	zh ɔi|
+|p|胖	p aŋ_4|PACE	p ei s|
+|q|钱	q i an_2||
+|r|让	ʒ aŋ_4|RISK	r i s k|
+|s|丝	s iii_1|SING	s i ŋ|
+|sh|上	sh aŋ_4|SHAKE	sh ei k|
+|t|团	t u an_2|TIME	t ai m|
+|ts|才	ts ai_2||
+|u||BOOK	b u k|
+|uŋ|从	ts uŋ_2||
+|uɔ|桌	zh uɔ_1||
+|uu|不	b uu_4|TWO	t uu|
+|v||VICTORY	v i k t ə r ii|
+|ʌ||CUT	k ʌ t|
+|w|王	w aŋ_2|WEST	w e s t|
+|x|西	x ii_1||
+|y|言	y an_2|YES	y e s|
+|yu|去	q yu_4||
+|yue|缺	q yue_1||
+|z|赞	z an_4|ZOO	z uu|
+|zh|中	zh uŋ_1|GESTURE	zh e s ch ə r|
+|ʒ|让	ʒ aŋ_4|LEISURE	l e ʒ ə r|
+|θ||THINK	θ i ŋ k|
+
+So overall there are 56 phonemes in the unified phoneset(regardless of tones).
+
+Theoretically some phonemes can be split into more small granularity(eg. au->a u, ɔi->ɔ i, an->a n ...), hence making the phoneset even more compact.  But it is a common practice that larger acoustic modeling units are beneficial for Chinese ASR accuracy, and the existence of decision-tree based state-tying, makes base phoneset size less irrelevant to ASR problem.
+
+I may or may not change the unified phoneset in the future, currently it seems to be sufficient for my purpose.
+
+END
