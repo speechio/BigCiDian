@@ -83,12 +83,12 @@ English entries are derived from CMUDict 0.7b, hence we need a mapping from ARPA
 |Z |z|zero: Z IY1 R OW0|
 |ZH |ʒ|illusion: IH2 L UW1 ZH AH0 N|
 
-*notes: If you find anything inappropriate in the mapping, please open an issue and help me improve it, thanks*
+*notes: If you find anything that doesn't make sense in the mapping table, please let me know, thanks*
 
 ### 2.2 Chinese PinYin Mapping
 Chinese entries are extracted from [DaCiDian project](https://github.com/aishell-foundation/DaCiDian)
 
-Here is a PinYin to IPA mapping in educational prospective: https://resources.allsetlearning.com/chinese/pronunciation/Pinyin_chart
+Here is a PinYin to IPA mapping from educational prospective: https://resources.allsetlearning.com/chinese/pronunciation/Pinyin_chart
 
 With a few mapping modifications and symbolic adaptations, here is the final [PinYin to target phoneset mapping](/CN/pinyin_chart.csv)
 
@@ -132,9 +132,9 @@ The final unified bi-lingual phoneset details are listed below:
 |f|房	f aŋ_2|FACE	f ei s|
 |g|刚	g aŋ_1|GIVE	g i v|
 |h|海	h ai_3|HUG	h ʌ g|
-|i||HIT	h i t|
+|i|天	t i an_1|HIT	h i t|
 |ie|别	b ie_2||
-|ii||BEAT	b ii t|
+|ii|比	b ii_3|BEAT	b ii t|
 |iii|吃	ch iii_1||
 |in|音	y in_1||
 |iŋ|听	t iŋ_1||
@@ -171,8 +171,18 @@ The final unified bi-lingual phoneset details are listed below:
 
 So overall there are 56 phonemes in the unified phoneset(regardless of tones).
 
-Theoretically some phonemes can be split into more small granularity(eg. au->a u, ɔi->ɔ i, an->a n ...), hence making the phoneset even more compact.  But it is a common practice that larger acoustic modeling units are beneficial for Chinese ASR accuracy, and the existence of decision-tree based state-tying, makes base phoneset size less irrelevant to ASR problem.
+Theoretically some phonemes can be split with smaller granularity(eg. au->a u, ɔi->ɔ i, an->a n ...), hence making the phoneset even more compact.  But it is a common practice that larger acoustic modeling units are beneficial for Chinese ASR accuracy, and the existence of decision-tree based state-tying, makes base phoneset size less irrelevant to ASR problem.
 
 I may or may not change the unified phoneset in the future, currently it seems to be sufficient for my purpose.
 
-END
+## 3. Usage
+`sh run.sh` should give you a ready-to-use bi-lingual ASR lexicon (`lexicon.txt`), and a phoneset list(`phones.list`) in project root directory.
+
+## 4. Extend entries
+To extend the final lexicon with entries of your own interest(say "IPHONE", "华为P30"), you can either:
+* add those entries into the very bottom sources(CMUDict and DaCiDian)
+
+or:
+* maintain a seperate extension-lexicon, and merge it with main lexicon automatically generated above.
+
+THE END
