@@ -1,9 +1,17 @@
 # BigCiDian
 
 ## 1. Goal
-This project is an attempt to create a pronunciation lexicon covering both English and Chinese words *in a unified phoneset* for ASR applications.  
+This project is an attempt to create a pronunciation lexicon covering both English and Chinese words *in a unified phoneset* for ASR applications. 
 
 P.S. "CiDian" means "lexicon" in Chinese.
+
+typical use cases in Chinese ASR applications:
+``` 
+你手机上都装了什么 APP ?
+APPLE 的新 MAC BOOK PRO 真漂亮
+手机开了 GPRS 导航
+世界杯 H 组小组赛
+```
 
 ## 2. Phoneset
 The unified phoneset should be a simple and precise phoneset that covers both languages. Note that the mapping listed below are heavily based on IPA.
@@ -184,5 +192,32 @@ To extend the final lexicon with entries of your own interest(say "IPHONE", "华
 
 or:
 * maintain a seperate extension-lexicon, and merge it with main lexicon automatically generated above.
+
+## 5. Experiment result
+In [AISHELL-2](https://github.com/kaldi-asr/kaldi/tree/master/egs/aishell2) Mandarin ASR task, replacing Chinese lexicon(DaCiDian) with multilingual CN-EN lexicon(BigCiDian), details are showed below:
+
+For DaCiDian, system performance:
+```
+----- test -----:
+%WER 44.39 [ 21986 / 49532, 338 ins, 2085 del, 19563 sub ] exp/mono/decode_test/cer_9_0.0
+%WER 24.25 [ 12011 / 49532, 393 ins, 792 del, 10826 sub ] exp/tri1/decode_test/cer_12_0.0
+%WER 22.13 [ 10963 / 49532, 396 ins, 644 del, 9923 sub ] exp/tri2/decode_test/cer_12_0.0
+%WER 19.29 [ 9555 / 49532, 263 ins, 640 del, 8652 sub ] exp/tri3/decode_test/cer_13_0.5
+%WER 8.33 [ 4125 / 49532, 84 ins, 192 del, 3849 sub ] exp/chain/tdnn_1a/decode_test/cer_8_0.5
+```
+
+For BigCiDian, system performance:
+```
+%WER 43.92 [ 21754 / 49532, 405 ins, 1574 del, 19775 sub ] exp/mono/decode_test/cer_7_0.0
+%WER 22.54 [ 11163 / 49532, 406 ins, 652 del, 10105 sub ] exp/tri1/decode_test/cer_11_0.0
+%WER 21.09 [ 10445 / 49532, 377 ins, 609 del, 9459 sub ] exp/tri2/decode_test/cer_12_0.0
+%WER 18.47 [ 9148 / 49532, 265 ins, 621 del, 8262 sub ] exp/tri3/decode_test/cer_13_0.5
+%WER 8.22 [ 4072 / 49532, 68 ins, 260 del, 3744 sub ] exp/chain/tdnn_1a/decode_test/cer_9_0.5
+```
+
+__Conclusion__
+
+* It shows that BigCiDian only gives slightly better results than DaCiDian.
+* But more importantly, BigCiDian turns a pure Chinese ASR system to multiligual system, which is pretty much the case in nowadays Chinese ASR applications.
 
 THE END
