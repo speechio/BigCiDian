@@ -8,7 +8,8 @@ P.S. "CiDian" means "lexicon" in Chinese.
 typical use cases in Chinese ASR applications:
 ``` 
 你手机上都装了什么 APP ?
-APPLE 的新 MAC BOOK PRO 真漂亮
+APPLE 的新 MACBOOK PRO 真漂亮
+上个月 PRADA 出了款新包包
 手机开了 GPRS 导航
 世界杯 H 组小组赛
 ```
